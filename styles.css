@@ -1,0 +1,142 @@
+:root { 
+  --product-red: rgb(255,0, 0);
+  --product-green: rgb(25, 165, 81);
+  --special-light-blue: rgb(3, 199, 206);
+}
+.body {font-family: 'Ubuntu' Arial, Helvetica, sans-serif;} /* Nejsem si moc jistá, zda mi změna fontu funguje a je správně zapsaná. */
+
+.product-card {
+  width: 400px;
+  height: auto;
+  padding: 16px;
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.title {
+  font-size: 30px;
+}
+.stars {
+  margin: 5px, 5px, 5px, 5px;
+}
+.star {
+  color: orange;
+  padding-bottom: 40px;
+}
+.line {
+  padding-top: 10px;
+}
+.discount-badge-container {
+  background-color: var(--product-red);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+}
+.recommend {
+  background-color: var(--special-light-blue);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 5px;
+}
+.product-image-container {
+  width: 300px;
+  height: auto;
+  display: block; /* Změní obrázek na blokový element, pokud již není */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content {
+  text-align: center;
+}
+.rectangle {
+  background-color: rgb(235, 234, 234);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+.discount-badge {background-color: var(--product-red);
+  color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  position: absolute;
+  top:5px;
+  left:5px;
+}
+.extra-sale {position: absolute;
+  top: 10px;
+  left:65px;
+}
+.three-hundred-and-forty {position: absolute;
+top:10px;
+right:10px}
+
+.price-with-code {position: absolute;
+  left:10px;
+  bottom: 10px;
+}
+.product-price-sale {position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: var(--product-red);
+  font-size: 25px;
+}
+.in-stock-box {position: relative;
+  width: 100%;
+  height: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.in-stock { color: var(--special-light-blue);
+  text-decoration: underline;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.ready-to-ship { color: var(--product-green);
+  position:absolute;
+  left: 5px;
+  bottom: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+.add-to-cart-button-box {position: relative;
+  width: 100%;
+  height: 30px;
+  padding-top:20px ;
+  padding-bottom: 20px;
+}
+
+.product-price {color: var(--product-red);
+  position: absolute;
+  left: 10px;
+  top:5px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.add-to-cart-button {background-color: var(--product-green);
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.comparison {position: absolute;
+  bottom: 5px;
+  right: 10px;
+  text-decoration: underline;
+  color: var(--special-light-blue);
+}
